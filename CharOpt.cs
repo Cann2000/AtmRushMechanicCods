@@ -10,7 +10,7 @@ public class CharOpt : MonoBehaviour
     public float speed;
 
 
-    // !!! PARALARIN SPAWNI IÇIN !!!
+    // !!! PARALARIN SPAWNI IÃ‡IN !!!
 
     private void Awake()
     {
@@ -29,7 +29,7 @@ public class CharOpt : MonoBehaviour
     {
         for (int i = 0; i < moneys.Count; i++)
         {
-            moneyPos(moneys[i].transform, i * 8);
+            moneyPos(moneys[i].transform, i * 15);
         }
     }
 
