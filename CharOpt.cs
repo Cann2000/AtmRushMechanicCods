@@ -44,6 +44,15 @@ public class CharOpt : MonoBehaviour
         objectTransform.localPosition = pos;
     }
 
+    public void destroyMoney()
+    {
+        for (int i = moneys.Count-1; i < moneys.Count; i++)
+        {
+            Destroy(moneys[i].gameObject);
+            moneys.RemoveAt(i);
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.transform.CompareTag("money"))

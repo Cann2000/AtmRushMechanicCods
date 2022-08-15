@@ -10,6 +10,5 @@ public class ZeminMove : MonoBehaviour
     void Update()
     {
         transform.Translate(0, 0, -ZeminSpeed * Time.deltaTime);
-
     }
 }

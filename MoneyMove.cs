@@ -7,11 +7,16 @@ public class MoneyMove : MonoBehaviour
 
     // !!! PARALARIN GECIKMELI HAREKETI VE SPAWNI IÇIN !!!
 
-    public GameObject spawnpos;
-    public CharOpt chropt;
+    GameObject spawnpos;
+    CharOpt chropt;
 
     public Transform node;
+
+    GameObject money;
+
     public float nodespeed = 5;
+
+    public bool SpawnEdildi;
 
     void Update()
     {
@@ -25,11 +30,17 @@ public class MoneyMove : MonoBehaviour
     {
         if (other.transform.CompareTag("money"))
         {
-            chropt.moneys.Add(other.gameObject);
+            money = other.gameObject;
+            chropt.moneys.Add(money);
             other.gameObject.transform.SetParent(spawnpos.transform);
             other.gameObject.AddComponent<MoneyMove>();
             other.gameObject.GetComponent<MoneyMove>().node = transform;
             chropt.diz();
+        }
+        if (other.transform.CompareTag("Tuzak"))
+        {
+            chropt.destroyMoney();
+            //chropt.diz();
         }
     }
 }
