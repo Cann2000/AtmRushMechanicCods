@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoneyMove : MonoBehaviour
 {
 
-    // !!! PARALARIN GECIKMELI HAREKETI VE SPAWNI IÇIN !!!
+    // !!! PARALARIN GECIKMELI HAREKETI VE SPAWNI IÃ‡IN !!!
 
     Options chropt;
 
@@ -32,7 +32,7 @@ public class MoneyMove : MonoBehaviour
         if (other.transform.CompareTag("Tuzak"))
         {
             chropt.destroyMoney();
-            chropt.diz();
+            //chropt.diz();
         }
     }
 
