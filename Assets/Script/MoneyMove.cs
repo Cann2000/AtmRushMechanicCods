@@ -11,11 +11,7 @@ public class MoneyMove : MonoBehaviour
 
     public Transform node;
 
-<<<<<<< HEAD
     public float nodespeed = 3f;
-=======
-    public float nodespeed = 3;
->>>>>>> 05f20d6a276856756f816b9e7b5478f894d9cdd7
 
     void Update()
     {
