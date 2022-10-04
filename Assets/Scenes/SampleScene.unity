@@ -366,7 +366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 370915273}
   m_Layer: 0
-  m_Name: Tuzaklar
+  m_Name: Traps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -675,6 +675,10 @@ PrefabInstance:
     - target: {fileID: 8265439472631278317, guid: 00dd12edcde97694084bcc799697e664, type: 3}
       propertyPath: m_Name
       value: Cube (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265439472631278317, guid: 00dd12edcde97694084bcc799697e664, type: 3}
+      propertyPath: m_TagString
+      value: Trap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00dd12edcde97694084bcc799697e664, type: 3}
@@ -1088,6 +1092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8265439472631278317, guid: 00dd12edcde97694084bcc799697e664, type: 3}
+      propertyPath: m_TagString
+      value: Trap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00dd12edcde97694084bcc799697e664, type: 3}
 --- !u!4 &1063408534 stripped
@@ -1468,7 +1476,7 @@ GameObject:
   - component: {fileID: 1402761167}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Tuzak
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1833,6 +1841,10 @@ PrefabInstance:
     - target: {fileID: 8265439472631278317, guid: 00dd12edcde97694084bcc799697e664, type: 3}
       propertyPath: m_Name
       value: Cube (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265439472631278317, guid: 00dd12edcde97694084bcc799697e664, type: 3}
+      propertyPath: m_TagString
+      value: Trap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00dd12edcde97694084bcc799697e664, type: 3}
@@ -2334,7 +2346,7 @@ GameObject:
   - component: {fileID: 2063170639}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Tuzak
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3221,6 +3233,10 @@ PrefabInstance:
     - target: {fileID: 8265439472631278317, guid: 00dd12edcde97694084bcc799697e664, type: 3}
       propertyPath: m_Name
       value: Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265439472631278317, guid: 00dd12edcde97694084bcc799697e664, type: 3}
+      propertyPath: m_TagString
+      value: Trap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00dd12edcde97694084bcc799697e664, type: 3}

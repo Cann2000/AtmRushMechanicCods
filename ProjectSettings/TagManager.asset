@@ -8,6 +8,7 @@ TagManager:
   - character
   - spawnpos
   - Tuzak
+  - Trap
   layers:
   - Default
   - TransparentFX
