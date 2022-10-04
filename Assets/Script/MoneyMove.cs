@@ -5,13 +5,13 @@ using UnityEngine;
 public class MoneyMove : MonoBehaviour
 {
 
-    // !!! PARALARIN GECIKMELI HAREKETI VE SPAWNI IÇIN !!!
+    // !!! PARALARIN GECIKMELI HAREKETI VE SPAWNI IÃ‡IN !!!
 
     Options chropt;
 
     public Transform node;
 
-    public float nodespeed = 5;
+    public float nodespeed = 3;
 
     void Update()
     {
