@@ -11,7 +11,7 @@ public class MoneyMove : MonoBehaviour
 
     public Transform node;
 
-    public float nodespeed = 10;
+    public float nodespeed = 5;
 
     void Update()
     {
@@ -25,9 +25,8 @@ public class MoneyMove : MonoBehaviour
     {
         if (other.transform.CompareTag("money"))
         {
-            Destroy(other.gameObject);
             chropt.MoneyCreate(transform);
-            
+            Destroy(other.gameObject);            
         }
         if (other.transform.CompareTag("Tuzak"))
         {

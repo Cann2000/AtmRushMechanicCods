@@ -11,6 +11,6 @@ public class SpawnPointFollow : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, MainCharacter.position, FollowSpeed) + offset;
+        transform.position = Vector3.Lerp(transform.position, MainCharacter.position, FollowSpeed * Time.deltaTime) + offset;
     }
 }

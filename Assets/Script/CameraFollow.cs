@@ -10,8 +10,9 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] Transform MainCharacter;
 
 
-    void Update()
+    private void LateUpdate()
     {
-        transform.position = Vector3.Lerp(transform.position, MainCharacter.position, FollowSpeed) + offset;
+        transform.position = Vector3.Lerp(transform.position, new Vector3(MainCharacter.position.x, 75, MainCharacter.position.z), FollowSpeed) + offset;
     }
+
 }
