@@ -353,7 +353,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/CameraFollow.cs"
 "Assets/Script/MoneyMove.cs"
-"Assets/Script/Options.cs"
+"Assets/Script/MoneyOptions.cs"
 "Assets/Script/PlaceMove.cs"
 "Assets/Script/SpawnPointFollow.cs"
 -langversion:9.0

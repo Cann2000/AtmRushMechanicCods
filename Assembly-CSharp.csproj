@@ -60,7 +60,7 @@
     <Compile Include="Assets\Script\MoneyMove.cs" />
     <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\PlaceMove.cs" />
-    <Compile Include="Assets\Script\Options.cs" />
+    <Compile Include="Assets\Script\MoneyOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
